@@ -11,7 +11,7 @@ const app = express();
 
 // CORS configuration for production
 const allowedOrigins = [
-  //'http://localhost:3000',
+  'http://localhost:3000',
   'https://image-frontend-nine.vercel.app/'
 ];
 
