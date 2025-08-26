@@ -11,8 +11,8 @@ const app = express();
 
 // CORS configuration for production
 const allowedOrigins = [
-  'http://localhost:3000',
-  'https://image-frontend-nine.vercel.app/' // Replace with your Vercel URL
+  //'http://localhost:3000',
+  'https://image-frontend-nine.vercel.app/'
 ];
 
 app.use(cors({
